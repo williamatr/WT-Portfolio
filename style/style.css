@@ -1,0 +1,128 @@
+{
+  box-sizing: border-box;
+  border: red 1px solid;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+
+}
+:root {
+  background-color: #f1f1f1;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/*--------------------------------ALGO----*/
+main{
+  display: grid;
+  grid-template-columns: 1.45fr 1.1fr 1.45fr;
+  grid-row: 3fr 1fr 1fr 6fr 1fr;
+}
+.rigthupthings{
+  display: grid;
+  grid-template-columns: 35% 40% 25%;
+
+}
+.textrightup{
+  font-size: 12px;
+  color: #757575;
+  padding: 0;
+}
+#linktext{
+  position: relative;
+  bottom: 30px;
+}
+#buttonsingin{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  position: relative;
+  top: 2%;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0077C5;
+  border-color: #0077C5;
+  color: #fff;
+}
+#buttoncreateaccount{
+  margin: 5%;
+  width: 90%;
+  height: 40px;
+  background-color: #0077C5;
+  border-color: #0077C5;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/*--------------------------------ALGO----*/
+.centerText{
+  text-align: center;
+}
+.forms{
+  background-color: #fff;
+}
+.formLabels{
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+.formsingup{
+  padding: 3%;
+}
+label{
+  text-align: right;
+}
+#textform{
+  font-size: 14px;
+  font-weight: 300;
+  color: #767676;
+}
+#learnmore{
+  font-size: 12px;
+  font-weight: 300;
+}
+#textphone{
+  font-size: 10px;
+  font-weight: 400;
+}
+/*--------------------------------ALGO----*/
+fieldset{
+  margin: 0;
+  padding: 0;
+}
+.terms{
+  font-size:12px;
+  font-weight: 400;
+  text-align: center;
+  margin: 5%;
+}
+.captcha{
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  align-content: center;
+  padding: 2%;
+  background-color: #f1f1f1;
+}
+#textcaptcha{
+
+}
+
+/*--------------------------------ALGO----*/
+
+.textfooter{
+  display: grid;
+  grid-template-columns: 35% 10% 10% 10% 35%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #505050;
+}
+.textfooter1{
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: #505050;
+}
