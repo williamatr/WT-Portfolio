@@ -29,16 +29,15 @@ iframe{
   display: grid;
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .head{
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  align-content: center;
+  grid-template-columns: 1.6fr 0.5fr 0.5fr 1.4fr;
 }
 .centro{
   display: grid;
-  grid-template-rows: 0.2fr 1.1fr 0.6fr 1.1fr;
+  grid-template-rows: 0.1fr 1fr 0.5fr 2.4fr;
 }
 
 /*---------------------Menus-------*/
@@ -71,19 +70,43 @@ iframe{
 .text_menu{
 
 }
+/*---------IMAGENES--------*/
+#yo{
+  display: grid;
+  padding: 0px;
+  margin: 0px;
+  }
+#wt{
+  position: relative;
+  width: 70%;
+  height: auto;
+}
 
+#atech{
+  display: grid;
+  width: auto;
+  height:50%;
+
+}
+#sendai{
+  display: grid;
+  width: auto;
+  height:10%;
+
+}
 /*------Botones---------*/
 #button_blog{
-  background-image: url(img/blog3.png);
+  background-image: url(img/ppal1.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   width: 100%;
   height: 100%;
   padding-top: 9%;
   padding-bottom: 10%;
 }
 #button_port{
-  background-image: url(img/interesante7.png);
+  background-image: url(img/ppal2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -93,7 +116,7 @@ iframe{
   padding-bottom: 12%;
 }
 #button_curri{
-  background-image: url(img/main2.jpg);
+  background-image: url(img/ppal3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
