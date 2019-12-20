@@ -2,26 +2,94 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="./style/style.css">
-    <meta charset="utf-8">
-    <title>Intweet Sing Up</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>William A. Tovar R. - Curriculum - Portfolio</title>
     <link rel="icon" href="#">
   </head>
 
   <main>
-    <!---------------------Sponsors--->
-    <div class="head">
-      <div id="sponsors">
 
+    <div class="borde1">
+    </div>
+    <!---------------------Sponsors--->
+    <div class="centro">
+      <div class="head">
+        <div id="yo">
+          <img src="" alt="William A. Tovar R.">
+        </div>
+        <div id=sponsor1>
+          <img src="" alt="Sendai Group">
+        </div>
+        <div id="sponsor2">
+          <img src="" alt="Atech SAS">
+        </div>
+        <div id="sponsor3">
+          <img src="" alt="sponsor3">
+        </div>
+      </div>
+    <!-------------------------curriculum y protfolio-->
+      <div class="menu1">
+        <div id="curriculum">
+          <a target="frame" href="curriculum.hmtl">
+            <button class="btn" type="button" name="button_curri" id="button_curri">
+              <!--  <img src="img/main2.jpg" alt="curriculum vitae" id="curri">-->
+              <p class="text_menu" id="curri">
+                Curriculum Vitae
+              </p>
+            </button>
+          </a>
+        </div>
+        <div id="portfolio">
+          <a target="frame" href="protfolio.html">
+            <button class="btn" type="button" name="button_port" id="button_port">
+              <!--    <img src="img/interesante7.png" alt="protfolio" id="port"> -->
+              <p class="text_menu" id="port">
+                Portfolio
+              </p>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="menu2">
+        <div class="blog">
+          <a target="frame" href="blog.hmtl">
+            <button class="btn" type="button" name="button_blog" id="button_blog">
+              <!--<img src="img/blog3.png" alt="blog personal" id="blog">-->
+              <p class="text_menu" id="curri">
+                Blog
+              </p>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <iframe name="frame"></iframe>
       </div>
     </div>
-    <!-------------------------curriculum y protfolio-->
-    <div class="menu">
-      <div id="curriculum">
-        <img src="" alt="curriculum vitae">
-      </div>
-      <div id="portfolio">
+    <div class="borde2">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-      </div>
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
     </div>
   </main>
 <!-----------------------------footer of the web---dah-->
@@ -51,15 +119,16 @@
     <!-----------------------------things of copyrigth-->
     <div class="textfooter1">
       <p>
-        © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks,
-        QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        Esta es una plantilla desarrollada por Wiliam A. Tovar R. y puede ser usada
+        con fines no comerciales, cualquier uso comercial que se le de a la misma
+        sera tomado como una violacion de derechos de autor.
       </p>
     </div>
     <!-----------------------------text of term and conditions-->
     <div class="textfooter1">
+
       <p>
-        Terms and conditions, features, support, pricing, and service
-        options subject to change without notice.
+        © 2019 William A. Tovar R. All rights reserved / Todos los derechos reservados.
       </p>
     </div>
   </footer>

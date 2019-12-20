@@ -1,3 +1,4 @@
+/*------Configuracion basica ------*/
 {
   box-sizing: border-box;
   border: red 1px solid;
@@ -11,48 +12,134 @@
   font-family: "Roboto", Arial, sans-serif;
 }
 
-/*--------------------------------ALGO----*/
+/*--------------------------------Estructura principal----*/
+html{
+  display: grid;
+  grid-template-rows: 1.7fr 0.3fr;
+}
 main{
   display: grid;
-  grid-template-columns: 1.45fr 1.1fr 1.45fr;
-  grid-row: 3fr 1fr 1fr 6fr 1fr;
+  grid-template-columns: 0.2fr 2.6fr 0.2fr;
 }
-.rigthupthings{
+footer{
   display: grid;
-  grid-template-columns: 35% 40% 25%;
+  position: relative;
+}
+iframe{
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.head{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  align-content: center;
+}
+.centro{
+  display: grid;
+  grid-template-rows: 0.2fr 1.1fr 0.6fr 1.1fr;
+}
+
+/*---------------------Menus-------*/
+.menu1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+.menu2{
+  display: grid;
+  position: relative;
 
 }
-.textrightup{
-  font-size: 12px;
-  color: #757575;
-  padding: 0;
-}
-#linktext{
-  position: relative;
-  bottom: 30px;
-}
-#buttonsingin{
+.blog{
   display: grid;
-  grid-template-columns: 30% 70%;
   position: relative;
-  top: 2%;
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  border: none;
-  background-color: #0077C5;
-  border-color: #0077C5;
-  color: #fff;
 }
-#buttoncreateaccount{
-  margin: 5%;
-  width: 90%;
-  height: 40px;
-  background-color: #0077C5;
-  border-color: #0077C5;
-  color: #fff;
-  font-size: 16px;
-  border-radius: 5px;
+
+.content{
+
+}
+
+/*---------------Textos------*/
+#curri{
+}
+#port{
+}
+#blog{
+}
+.text_menu{
+
+}
+
+/*------Botones---------*/
+#button_blog{
+  background-image: url(img/blog3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 9%;
+  padding-bottom: 10%;
+}
+#button_port{
+  background-image: url(img/interesante7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  padding-top: 18%;
+  padding-bottom: 18%;
+}
+#button_curri{
+  background-image: url(img/main2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 220%;
+  opacity: 0.6;
+  transition: 0.3s;
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn:hover {
+  color: black;
+  opacity: 1;
+  text-shadow: 1px 1px 5px white;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+  color: white;
 }
 
 /*--------------------------------ALGO----*/
